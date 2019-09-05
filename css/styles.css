@@ -1,0 +1,170 @@
+body{
+
+    height:20%;
+  }
+  .social-icon
+  {
+   color: blue;
+   margin-left: 3px;
+  } 
+  .social-icon3
+  {
+    margin-left: 10px;
+    border-radius: 60px;
+    background: #d6249f;
+    background: radial-gradient(circle at 25% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+  #contact h2{
+      text-align: center;
+      color: rgb(255, 255, 255);  
+      margin-top: 5%;
+      margin-left: 400px;
+  }
+  .h{
+    text-align: center;
+    
+  }
+  .social-links {
+    padding-left: 5px;
+      
+    }
+    .info-box {
+     color:white;
+      margin: 20px 10px;
+      padding: 30px;
+      box-shadow: 1px 1px 2px #e7e7e7;
+      border-radius: 4px;
+      min-height: 275px;
+    }
+  
+  #contacts{
+  
+     /* filter: blur(2px);
+    -webkit-filter: blur(3px); */
+  /* background-image: url("../images/address.jpg") !important; */
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d6249f
+  }
+  #contacts img
+  {
+  width: 100%;
+  
+  }
+    
+  .address-sec{
+  
+   position:absolute;
+   margin-top: -15%;
+   margin-left: 20%;
+   color: white;
+   
+  
+  }
+  .address-sec a
+  {
+    font-size: 1.2em;
+    color: white;
+  }
+  
+  footer
+  {
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-right: 100px;
+  
+  }
+  h2{
+    margin-left: 500px;
+    border-width: 5px;
+    margin-right: 500px;
+    font-size: 25px;
+    color: white;
+    margin-top: 150px;
+    border-radius: 90px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .line{
+    margin-left: 480px;
+    border-width: 5px;
+    margin-right: 500px;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    border-radius: 90px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .conc{
+    background-color: #fd5949;
+    height: 500px;
+    background-size: 100%;
+    text-align: center;
+  }
+  .conc input{
+    color: white;
+    background-color: rgba(240, 255, 252, 0.342);
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  #submit {
+    color:rgba(216, 197, 197, 0.507);
+    width: 200px;
+    margin-top: 15px;
+    font-weight: bolder;
+    background: transparent;
+   
+  }
+  #message{
+    height: 230px;
+   
+  }
+  .rw3{
+    margin-top: 15px;
+    margin-left: 175px;
+  }
+  .foot {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .foot h3 {
+    font-size: 15px;
+  }
+  .foot h4 {
+    font-size: 10px;
+  }
+  .boil{
+    background-image: url(../images/contact.jpg);
+  }
+  #name
+  {
+    margin-left: 160px;
+    background-color: #e28315b0;
+  }
+  #email{
+    background-color: #e28315b0;
+  }
+  #text{
+    background-color: #e28315b0;
+    color: aqua;
+    margin-top: 40px;
+    width: 600px;
+  }
+  .contact-us{
+    color: #eb830d;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .rw3{
+    margin-left: 180px;
+    margin-top: -50px;
+   
+  }
+   
+  
