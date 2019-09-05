@@ -1,3 +1,4 @@
+
 body {
     overflow: hidden;
     background-color: #d4d7dd;
@@ -124,3 +125,563 @@ p {
     width: 900px;
     height: 800px;
 }
+=======
+
+body{
+
+    height:20%;
+  }
+  .social-icon
+  {
+   color: blue;
+   margin-left: 3px;
+  } 
+  .social-icon3
+  {
+    margin-left: 10px;
+    border-radius: 60px;
+    background: #d6249f;
+    background: radial-gradient(circle at 25% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+  #contact h2{
+      text-align: center;
+      color: rgb(255, 255, 255);  
+      margin-top: 5%;
+      margin-left: 400px;
+  }
+  .h{
+    text-align: center;
+    
+  }
+  .social-links {
+    padding-left: 5px;
+      
+    }
+    .info-box {
+     color:white;
+      margin: 20px 10px;
+      padding: 30px;
+      box-shadow: 1px 1px 2px #e7e7e7;
+      border-radius: 4px;
+      min-height: 275px;
+    }
+  
+  #contacts{
+  
+     /* filter: blur(2px);
+    -webkit-filter: blur(3px); */
+  /* background-image: url("../images/address.jpg") !important; */
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d6249f
+  }
+  #contacts img
+  {
+  width: 100%;
+  
+  }
+    
+  .address-sec{
+  
+   position:absolute;
+   margin-top: -15%;
+   margin-left: 20%;
+   color: white;
+   
+  
+  }
+  .address-sec a
+  {
+    font-size: 1.2em;
+    color: white;
+  }
+  
+  footer
+  {
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-right: 100px;
+  
+  }
+  h2{
+    margin-left: 500px;
+    border-width: 5px;
+    margin-right: 500px;
+    font-size: 25px;
+    color: white;
+    margin-top: 150px;
+    border-radius: 90px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .line{
+    margin-left: 480px;
+    border-width: 5px;
+    margin-right: 500px;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    border-radius: 90px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .conc{
+    background-color: #fd5949;
+    height: 500px;
+    background-size: 100%;
+    text-align: center;
+  }
+  .conc input{
+    color: white;
+    background-color: rgba(240, 255, 252, 0.342);
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  #submit {
+    color:rgba(216, 197, 197, 0.507);
+    width: 200px;
+    margin-top: 15px;
+    font-weight: bolder;
+    background: transparent;
+   
+  }
+  #message{
+    height: 230px;
+   
+  }
+  .rw3{
+    margin-top: 15px;
+    margin-left: 175px;
+  }
+  .foot {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .foot h3 {
+    font-size: 15px;
+  }
+  .foot h4 {
+    font-size: 10px;
+  }
+  .boil{
+    background-image: url(../images/contact.jpg);
+  }
+  #name
+  {
+    margin-left: 160px;
+    background-color: #e28315b0;
+  }
+  #email{
+    background-color: #e28315b0;
+  }
+  #text{
+    background-color: #e28315b0;
+    color: aqua;
+    margin-top: 40px;
+    width: 600px;
+  }
+  .contact-us{
+    color: #eb830d;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .rw3{
+    margin-left: 180px;
+    margin-top: -50px;
+   
+  }
+   
+  
+=======
+span{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+#cart-items {
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    z-index: 999;
+    border: 0px !important;
+    display: none;
+}
+
+#header-img {
+    width: 50px;
+}
+
+
+#items-basket {
+    position: absolute;
+    display: none;
+    top: -5px;
+    left: -10px;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background: red;
+    color: white;
+
+}
+
+.cart {
+    float: right;
+    text-align: center;
+    color: gray;
+    position: relative;
+}
+
+.remove {
+    color: Red;
+}
+
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+}
+
+#bounce{
+    height: 100px;
+}
+.container h2
+{
+
+}
+
+
+
+
+
+
+
+
+/* Hidden and visible elemnt from Bootsrap3.0 */
+/*\
+   * Restore Bootstrap 3 "hidden" utility classes.
+  \*/
+
+/* Breakpoint XS */
+@media (max-width: 575px) {
+
+    .hidden-xs-down,
+    .hidden-sm-down,
+    .hidden-md-down,
+    .hidden-lg-down,
+    .hidden-xl-down,
+    .hidden-xs-up,
+    .hidden-unless-sm,
+    .hidden-unless-md,
+    .hidden-unless-lg,
+    .hidden-unless-xl {
+        display: none !important;
+    }
+
+}
+
+/* Breakpoint SM */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .hidden-sm-down,
+    .hidden-md-down,
+    .hidden-lg-down,
+    .hidden-xl-down,
+    .hidden-xs-up,
+    .hidden-sm-up,
+    .hidden-unless-xs,
+    .hidden-unless-md,
+    .hidden-unless-lg,
+    .hidden-unless-xl {
+        display: none !important;
+    }
+}
+
+/* Breakpoint MD */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .hidden-md-down,
+    .hidden-lg-down,
+    .hidden-xl-down,
+    .hidden-xs-up,
+    .hidden-sm-up,
+    .hidden-md-up,
+    .hidden-unless-xs,
+    .hidden-unless-sm,
+    .hidden-unless-lg,
+    .hidden-unless-xl {
+        display: none !important;
+    }
+}
+
+/* Breakpoint LG */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .hidden-lg-down,
+    .hidden-xl-down,
+    .hidden-xs-up,
+    .hidden-sm-up,
+    .hidden-md-up,
+    .hidden-lg-up,
+    .hidden-unless-xs,
+    .hidden-unless-sm,
+    .hidden-unless-md,
+    .hidden-unless-xl {
+        display: none !important;
+    }
+}
+
+/* Breakpoint XL */
+@media (min-width: 1200px) {
+
+    .hidden-xl-down,
+    .hidden-xs-up,
+    .hidden-sm-up,
+    .hidden-md-up,
+    .hidden-lg-up,
+    .hidden-xl-up,
+    .hidden-unless-xs,
+    .hidden-unless-sm,
+    .hidden-unless-md,
+    .hidden-unless-lg {
+        display: none !important;
+    }
+}
+
+.container h2
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-top: 3%;
+}
+.product-name
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+#mpesa {
+    display: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#mpesab {
+    display: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#airtel {
+    display: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#airtelb {
+    display: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#visa {
+    display: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#visab {
+    display: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mp {
+    border-radius: 90px;
+    /* background-color: rgba(38, 216, 38, 0.822); */
+    padding: 3px;
+    margin-top: 5px;
+    font-size: 1.5;
+    /* font-weight: bolder; */
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+#mp:hover
+{
+    background-color:#004a2f;
+    color: white;
+}
+
+#am {
+    border-radius: 90px;
+    /* background-color: rgba(233, 15, 15, 0.822); */
+    padding: 3px;
+    margin-top: 10px;
+    font-size: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bolder; */
+    border: none;
+}
+#am:hover{
+    background:#801336;
+    color: white;
+}
+
+#vs {
+    border-radius: 90px;
+    /* background-color: rgba(78, 68, 219, 0.925); */
+    padding: 3px;
+    margin-top: 10px;
+    font-size: 1.5;
+    /* font-weight: bolder; */
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+}
+#vs:hover
+{
+    background:#207dff;
+    color: white;
+}
+=======
+.isss{
+    width:100px;
+    height: 100px;
+    margin-top: 70px;
+
+}
+i:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s; 
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 16vh;
+  background-color: #812B73;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo a{
+  letter-spacing: 5px;
+  color: #EF820D;
+  text-decoration: none;
+}
+.logo h4{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Kaushan Script', cursive;
+}
+.logo img{
+  height: 16vh;
+  justify-content: center;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.nav-links a{
+  color: #15ACC0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav-links li{
+  list-style: none;
+  font-family: 'Poiret One', cursive;
+}
+ul li.active a{
+  text-shadow: 0px 0px 5px #D7722C;
+  color: white;
+}
+.burger div{
+  background-color: #EF820D;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+}
+.burger{
+  display: none;
+}
+
+
+@media screen and (max-width:768px){
+   .nav-links {
+     width: 60%;
+  }
+}
+@media screen and (max-width:425px){
+    body{
+      overflow-x: hidden;
+    }
+   .nav-links{
+     position: absolute;
+     right: 0px;
+     height: 92vh;
+     top: 8vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transform: translateX(100%);
+     transition: transform 0.5s ease-in;
+  }
+  .nav-links li{
+    opacity: 0;
+  }
+  .burger{
+    display: block;
+  }
+}
+  .nav-active{
+    transition: translateX(0%)
+  }
+  
+
+.img-thumbnail {
+    width: 100%;
+    height: 283px !important;
+
+}
+
