@@ -262,6 +262,122 @@ section {
     background:#207dff;
     color: white;
 }
+=======
+.isss{
+    width:100px;
+    height: 100px;
+    margin-top: 70px;
+
+}
+i:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s; 
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 16vh;
+  background-color: #812B73;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo a{
+  letter-spacing: 5px;
+  color: #EF820D;
+  text-decoration: none;
+}
+.logo h4{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Kaushan Script', cursive;
+}
+.logo img{
+  height: 16vh;
+  justify-content: center;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.nav-links a{
+  color: #15ACC0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav-links li{
+  list-style: none;
+  font-family: 'Poiret One', cursive;
+}
+ul li.active a{
+  text-shadow: 0px 0px 5px #D7722C;
+  color: white;
+}
+.burger div{
+  background-color: #EF820D;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+}
+.burger{
+  display: none;
+}
+
+
+@media screen and (max-width:768px){
+   .nav-links {
+     width: 60%;
+  }
+}
+@media screen and (max-width:425px){
+    body{
+      overflow-x: hidden;
+    }
+   .nav-links{
+     position: absolute;
+     right: 0px;
+     height: 92vh;
+     top: 8vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transform: translateX(100%);
+     transition: transform 0.5s ease-in;
+  }
+  .nav-links li{
+    opacity: 0;
+  }
+  .burger{
+    display: block;
+  }
+}
+  .nav-active{
+    transition: translateX(0%)
+  }
+  
 
 .img-thumbnail {
     width: 100%;
